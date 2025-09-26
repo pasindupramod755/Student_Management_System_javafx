@@ -32,3 +32,13 @@ This application allows users to **Add, Update, Delete, and View** student detai
 - 🔒 **Authentication System (Login Page)** – Secure access with login/logout functionality.  
 
 
+---
+
+## 🚀 How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/pasindupramod755/student-management-system.git
+   cd student-management-system
+
+
