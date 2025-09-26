@@ -24,5 +24,11 @@ This application allows users to **Add, Update, Delete, and View** student detai
 
 ---
 
-## 📂 Project Structure
+## 📌 Future Improvements
+
+- 🔍 **Search Functionality** – Quickly find students by ID, name, or other details.  
+- 📑 **Pagination in Table View** – Better navigation when handling large datasets.  
+- 📤 **Import/Export Student Data (Excel/CSV)** – Save or load student details in common file formats.  
+- 🔒 **Authentication System (Login Page)** – Secure access with login/logout functionality.  
+
 
