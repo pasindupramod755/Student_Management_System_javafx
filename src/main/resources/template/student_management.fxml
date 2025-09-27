@@ -20,7 +20,7 @@
             </effect>
         </ImageView>
         <Rectangle arcHeight="12.0" arcWidth="12.0" fill="#797979" height="426.0" layoutX="22.0" layoutY="19.0" opacity="0.39" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="705.0" />
-        <Button layoutX="405.0" layoutY="94.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="270.0" style="-fx-background-radius: 10; -fx-background-color: #1a94d6;" text="Add Student 👉" textFill="WHITE">
+        <Button layoutX="405.0" layoutY="94.0" mnemonicParsing="false" onAction="#btnAddStudentAction" prefHeight="40.0" prefWidth="270.0" style="-fx-background-radius: 10; -fx-background-color: #1a94d6;" text="Add Student 👉" textFill="WHITE">
             <font>
                 <Font name="System Bold Italic" size="18.0" />
             </font>
