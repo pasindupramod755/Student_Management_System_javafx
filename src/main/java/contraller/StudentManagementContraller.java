@@ -18,4 +18,14 @@ public class StudentManagementContraller {
         stage.show();
 
     }
+
+    public void btnUpdateStudentAction(ActionEvent actionEvent) {
+        try {
+            stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/template/update_student.fxml"))));
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+        stage.show();
+        
+    }
 }
