@@ -26,6 +26,6 @@ public class StudentManagementContraller {
             throw new RuntimeException(e);
         }
         stage.show();
-        
+
     }
 }
