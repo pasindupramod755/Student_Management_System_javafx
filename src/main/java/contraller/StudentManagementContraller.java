@@ -37,4 +37,13 @@ public class StudentManagementContraller {
         }
         stage.show();
     }
+
+    public void btnDeleteStudentAction(ActionEvent e) {
+        try {
+            stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/template/delete_student.fxml"))));
+        } catch (IOException ex) {
+            throw new RuntimeException(ex);
+        }
+        stage.show();
+    }
 }
