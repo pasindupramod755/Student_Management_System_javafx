@@ -10,7 +10,7 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="454.0" prefWidth="679.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="contraller.DeleteStudentContraller  ">
+<AnchorPane prefHeight="454.0" prefWidth="679.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="contraller.DeleteStudentContraller">
     <children>
         <ImageView fitHeight="544.0" fitWidth="915.0" layoutX="-222.0" pickOnBounds="true" preserveRatio="true">
             <image>
