@@ -41,20 +41,14 @@ This application allows users to **Add, Update, Delete, and View** student detai
    git clone https://github.com/pasindupramod755/student-management-system.git
    cd student-management-system
 
-Full Add Student form (validation + clear/reset).
+✨ Completed Features
 
-Update Student flow — select a student from the table, edit fields, save changes.
-
-Delete Student with confirmation dialog to prevent accidental removal.
-
-View All Students in a responsive TableView with sortable columns and row selection.
-
-UI built with JavaFX + Scene Builder (FXML files included).
-
-Controller bindings for form ↔ table synchronization.
-
-User-friendly alerts and input validation (missing fields / invalid input).
-
-Clean, reusable CSS classes for consistent button/form styling.
-
-Placeholders/hooks for database (JDBC/MySQL) integration — ready to wire to your DAO layer.
+➕ Full Add Student Form – Input validation + Clear/Reset option.
+📝 Update Student Flow – Select student from the table, edit details, and save.
+❌ Delete Student – With confirmation dialog to prevent accidental removals.
+📋 View All Students – Responsive TableView with sortable columns & row selection.
+🎨 Modern JavaFX UI – Built with JavaFX + Scene Builder (FXML included).
+🔗 Controller Bindings – Smooth form ↔ table synchronization.
+⚠️ User-Friendly Alerts – Validation for empty/invalid inputs.
+🎭 Reusable CSS Styles – Consistent buttons & form design.
+💾 Database Ready – Hooks for JDBC/MySQL integration (DAO layer)
