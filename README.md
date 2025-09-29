@@ -44,11 +44,20 @@ This application allows users to **Add, Update, Delete, and View** student detai
 ✨ Completed Features
 
 ➕ Full Add Student Form – Input validation + Clear/Reset option.
+
 📝 Update Student Flow – Select student from the table, edit details, and save.
+
 ❌ Delete Student – With confirmation dialog to prevent accidental removals.
+
 📋 View All Students – Responsive TableView with sortable columns & row selection.
+
 🎨 Modern JavaFX UI – Built with JavaFX + Scene Builder (FXML included).
+
 🔗 Controller Bindings – Smooth form ↔ table synchronization.
+
 ⚠️ User-Friendly Alerts – Validation for empty/invalid inputs.
+
 🎭 Reusable CSS Styles – Consistent buttons & form design.
+
 💾 Database Ready – Hooks for JDBC/MySQL integration (DAO layer)
+
