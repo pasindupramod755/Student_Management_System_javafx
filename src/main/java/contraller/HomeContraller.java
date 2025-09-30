@@ -17,4 +17,14 @@ public class HomeContraller {
         }
         stage.show();
     }
+
+    public void btnBatchManagementAction(ActionEvent actionEvent) {
+        try {
+            stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/template/batch_management.fxml"))));
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+        stage.show();
+
+    }
 }
