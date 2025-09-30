@@ -26,4 +26,13 @@ public class BatchManagementContraller {
         }
         stage.show();
     }
+
+    public void btnViewBatchAction(ActionEvent actionEvent) {
+        try {
+            stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/template/view_batch.fxml"))));
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+        stage.show();
+    }
 }
