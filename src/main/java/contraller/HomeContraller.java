@@ -27,4 +27,13 @@ public class HomeContraller {
         stage.show();
 
     }
+
+    public void btnGradeManagementAction(ActionEvent actionEvent) {
+        try {
+            stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/template/grade_management.fxml"))));
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+        stage.show();
+    }
 }
