@@ -36,4 +36,14 @@ public class HomeContraller {
         }
         stage.show();
     }
+
+    public void btnReportManagementAction(ActionEvent actionEvent) {
+        try {
+            stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/template/report_management.fxml"))));
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+        stage.show();
+
+    }
 }
