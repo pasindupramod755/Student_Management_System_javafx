@@ -17,4 +17,14 @@ public class ReportManagementContraller {
         }
         stage.show();
     }
+
+    public void btnIndustryTrainingEligibilityReportAction(ActionEvent actionEvent) {
+        try {
+            stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/template/industry_training_eligibility_report.fxml"))));
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+        stage.show();
+
+    }
 }
